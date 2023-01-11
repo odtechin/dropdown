@@ -3,7 +3,7 @@ import {TextInput } from "react-native-paper";
 function Dropdown (props){
     const {icon, iserror, label, val, setval, cstyle,backgroundColor,afterbackgroundColor} = props;
 
-    const [backColor, setBackColor] = useState(backgroundColor);
+    const [backColor, setBackColor] = useState("black");
     const style = {
       backgroundColor: backColor,
       height: 55,
@@ -12,11 +12,11 @@ function Dropdown (props){
     };
     return (
       <TextInput
-        label={label}
+        label={"label"}
         mode="outlined"
-        value={val}
-        error={iserror}
-        onChangeText={(text) => setval(text)}
+        value={"val"}
+        error={false}
+        // onChangeText={(text) => setval(text)}
         outlineStyle={{
           borderColor: "#808080",
           borderRadius: 13,
@@ -24,11 +24,11 @@ function Dropdown (props){
         }}
         style={style}
         textColor={"#fff"}
-        onFocus={() => setBackColor(afterbackgroundColor)}
+        onFocus={() => setBackColor("pink")}
         left={
           <TextInput.Icon
             style={{ paddingTop: 10 }}
-            icon={icon}
+            icon={"eye"}
             iconColor={"#000"}
           />
         }
