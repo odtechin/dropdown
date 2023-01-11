@@ -1,0 +1,49 @@
+{
+  "name": "dropdown",
+  "version": "1.0.0",
+  "description": "the dropdown with new and advance funcnality",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/odtechin/dropdown.git"
+  },
+  "keywords": [
+    "dropdown",
+    "picker",
+    "select",
+    "dropdown",
+    "android",
+    "ios",
+    "selectlist",
+    "searchable",
+    "list",
+    "dropdown-picker",
+    "react",
+    "react native",
+    "react-native",
+    "reactnative",
+    "selectlist",
+    "expo",
+    "easy",
+    "menu",
+    "tag",
+    "chooser",
+    "multiple",
+    "multi"
+  ],
+  "author": "odtechin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/odtechin/dropdown/issues"
+  },
+  "homepage": "https://github.com/odtechin/dropdown#readme",
+  "peerDependencies": {
+    "react-native-reanimated": "~2.12.0",
+    "react-native-paper": "5.0",
+    "react": "18.1.0",
+    "react-native": "0.70.5"
+  }
+}
