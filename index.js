@@ -1,6 +1,6 @@
 
 import {TextInput } from "react-native-paper";
-function dropdown (props){
+function Dropdown (props){
     const {icon, iserror, label, val, setval, cstyle,backgroundColor,afterbackgroundColor} = props;
 
     const [backColor, setBackColor] = useState(backgroundColor);
